@@ -1,0 +1,45 @@
+body{
+    font-family: 'arial';
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    color: #333333;
+    font-size:larger;
+}
+
+header a{
+    color: #888888;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+footer{
+    color: #888888;
+    border-top: 1px solid #888888;
+    margin-top:20px;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+input{
+    border: 1px solid #888888;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+button{
+    border: 1px solid #333333;
+    padding: 8px;
+    background-color: hsl(0, 2%, 71%);
+    color: white;
+    font-size:medium;
+    border-radius: 5%;
+}
