@@ -13,7 +13,7 @@ document.querySelector('form').addEventListener('submit', (e) => {
     
     loc.textContent = "loading..."
 
-    fetch('http://localhost:3000/weather?address=' + seachedLocation).then((response) => {
+    fetch('/weather?address=' + seachedLocation).then((response) => {
         response.json().then((data) => {
             if (data.error) {
                 loc.textContent = data.error
