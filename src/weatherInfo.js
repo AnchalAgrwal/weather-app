@@ -2,7 +2,7 @@ const request = require('request')
 
 //using function to call it multiple times with different locations
 const forecast = (address, callback) => {
-    const url = 'https://api.weatherstack.com/current?access_key=d2d8d958d724516e106929fc3655363d&query=' + address
+    const url = 'https://api.weatherstack.com/current?access_key=f9dd4445a33668a8c024290fc6646a36&query=' + address
     
     request({url, json: true}, (err, {body}) => {
         if(err){
